@@ -61,6 +61,7 @@ done
 average_memory=$((total_memory / count))
 
 # Print results
-echo "Minimum Memory Usage: ${min_memory}MB"
-echo "Average Memory Usage: ${average_memory}MB"
-echo "Maximum Memory Usage: ${max_memory}MB"
+echo ""
+echo "Memory Stats for PID $process_id:"
+echo "==========================="
+echo "min=${min_memory}MB, avg=${average_memory}MB, max=${max_memory}MB"
