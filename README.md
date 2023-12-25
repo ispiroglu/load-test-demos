@@ -6,7 +6,7 @@ Install [k6](https://k6.io/docs/) before run tests:
 brew install k6
 ```
 
-Run load test:
+Run load test while monitoring memory usage:
 
 ```bash
 ./run-load-test.sh -p <process_id> -s <k6_script_file_name> -c <concurrent_user_count> -t <total_seconds>
